@@ -1,0 +1,20 @@
+.bg-image {
+    background-image: url(https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+
+    min-height: 70vh;
+    background-size: 100%;
+    object-fit: cover;
+}
+
+.bebas-neue {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.bg-smoke {
+    background-color: rgba(0, 0, 0, 0.492);
+}
+
+.move-down {
+    transform: translateY(5vh);
+    display: block(sm);
+}
