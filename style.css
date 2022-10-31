@@ -14,7 +14,21 @@
     background-color: rgba(0, 0, 0, 0.492);
 }
 
+
 .move-down {
-    transform: translateY(5vh);
-    display: block(sm);
+    transform: translateY(3vh);
+}
+
+@media (max-width: 756px) {
+    .move-down {
+        transform: translate(0px, 0vh);
+    }
+}
+
+.card-height {
+    height: 25vh;
+}
+
+.big-card-height {
+    height: 45vh;
 }
